@@ -333,9 +333,9 @@ body
 #work .work-bg{
 	background-image: url("../images/work-bg.jpg");
 	background-size: cover;
-	background-position: 5px center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
 }
 #work .text{
 	background-color: #FFF;
