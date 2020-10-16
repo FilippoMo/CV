@@ -1,0 +1,73 @@
+
+#intro {
+  color: #EEE;
+  background-image: url("../images/intro-bg.jpg");
+	background-size: cover;
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text-area {
+  background: rgb(50, 50, 50, 0.5);
+  position: fixed;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  padding: 10px 20% 10px;
+  font-size: 18px;
+}
+
+.title-intro{
+  color: #ffa400;
+  font-size: 52px;
+  padding: 0 0 12px;
+}
+.footer-intro {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 0 0 15px;
+   background-color: #EEE;
+   color: #666;
+   text-align: center;
+   border-top: 1px solid #ffa400
+}
+.continue-bar {
+  color: #666;
+  margin: 0 0 15px;
+  padding: 1px 0 1px;
+}
+.continue-bar:hover {
+  color: #FFF;
+  background: #ffa400;
+}
+.arrow-icon a {
+  color: #ffa400;
+	font-size: 36px;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.arrow-icon a:hover {
+	color: #ffc55c;
+}
+.social-icon-intro a{
+	border: 1px solid #202020;
+	border-radius: 50%;
+	color: #666;
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin: 0 4px 18px 6px;
+}
+.social-icon-intro a:hover{
+  color: #FFF;
+	border-color: transparent;
+	background: #ffa400;
+}
