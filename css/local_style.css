@@ -94,6 +94,7 @@ body
 	background-color: #ffa400;
 	overflow: hidden;
 	margin: 0;
+	height: 100vh;
 }
 .flexslider .slides {
 	padding: 0;
@@ -104,6 +105,7 @@ body
 	min-width: 648px;
 	min-height: 270px;
 	display: block;
+	height: 100vh;
 }
 
 .flexslider li {
