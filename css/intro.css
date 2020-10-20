@@ -1,4 +1,5 @@
-
+/*Style sheet associated with the page index.html*/
+/*Created by Montanari Filippo*/
 #intro {
   color: #EEE;
   background-image: url("../images/intro-bg.jpg");
@@ -13,13 +14,13 @@
 .text-area {
   background: rgb(50, 50, 50, 0.5);
   position: fixed;
-  top: 40%;
+  top: 50%;
   height: auto;
   width: 100%;
   padding: 10px 15px 10px;
   font-size: 14px;
 }
-.title-intro{
+.title-intro {
   color: #ffa400;
   font-size: 52px;
   padding: 0 0 12px;
@@ -52,7 +53,7 @@
    text-align: center;
    border-top: 1px solid #ffa400
 }
-.social-icon-intro a{
+#intro .social-icon a {
 	border: 1px solid #666;
 	border-radius: 50%;
 	color: #666;
@@ -66,7 +67,7 @@
 	transition: all 0.2s ease-in;
 	margin: 0 4px 6px 6px;
 }
-.social-icon-intro a:hover{
+#intro .social-icon a:hover {
   color: #FFF;
 	border-color: transparent;
 	background: #ffa400;

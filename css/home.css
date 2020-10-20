@@ -1,0 +1,172 @@
+/*Style sheet associated with the page home.html*/
+/*Created by Montanari Filippo*/
+
+/*about-me*/
+#about-me {
+  background: #333;
+  color: #DDD;
+  border-bottom: 1px solid #ffa400;
+  height: auto
+}
+#about-me .img-me {
+  background: #F9F9F9;
+  margin-right: 10%;
+  float: left;
+  width: 31%;
+  min-width: 200px;
+  height: auto;
+}
+#about-me h2 {
+  font-size: min(4.5vw, 28px);
+  border-bottom: 1px solid #ffa400;
+  padding-bottom: 10px;
+}
+#about-me .text-area {
+  font-size: min(2.3vw, 17px);
+  padding: 5vw 0 0;
+  width: auto;
+}
+@media (min-width:768px){
+	.text-area {
+		margin-right: 7vw;
+	}
+}
+
+/* features */
+#features {
+	background: #F9F9F9;
+	padding: 60px 0 10px 0;
+	border-bottom: 1px solid #ffa400;
+}
+#features h2 {
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+#features h3 {
+	font-weight: 400;
+	padding-bottom: 6px;
+}
+#features .fa {
+	background: #ffa400;
+	border-radius: 50%;
+	color: #FFF;
+	font-size: 28px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+}
+#features .fa:hover {
+	background: #303030;
+	-webkit-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+}
+
+/* show skill-bars*/
+.hideshow-btn {
+  color: #ffa400;
+  background-color: transparent;
+	font-size: 15px;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ffa400;
+  margin: 22px 0 22px;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.hideshow-btn:hover {
+  color: #FFF;
+  background-color: #ffa400;
+}
+/* skill-bars */
+#skill-bars {
+	background: #EEE;
+	border-bottom: 1px solid #E0E0E0;
+	color: #333;
+	padding: 0;
+}
+#skill-bars .col-md-12 {	padding: 20px 0 0 0; }
+#skill-bars h2 {
+	font-weight: 400;
+	padding: 0 0 20px 0;
+}
+#skill-bars h4 {
+	font-weight: 600;
+	padding-top: 6px;
+	padding-bottom: 10px;
+}
+#skill-bars .skills { padding-top: 30px; }
+#skill-bars .progress {
+	background: #ddd;
+	height: 6px;
+	margin: 6px 0 16px 0;
+}
+#skill-bars .progress .progress-bar-success { background: #ffa400; }
+
+/* portfolio */
+#portfolio {
+	text-align: center;
+	background: #202020;
+	color: #CCC;
+	font-size: 12px;
+	padding: 60px 0 100px 0;
+}
+#portfolio h2 {
+	font-weight: 400;
+	padding: 0 0 20px 0;
+}
+#portfolio ul { padding-left: 10px }
+#portfolio .col-md-3 { padding: 4px; }
+#portfolio .image_folder {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+#portfolio .image_folder .image_overlay {
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	text-align: left;
+}
+#portfolio .image_folder:hover .image_overlay { opacity: 0.9; }
+#portfolio .image_folder .image_overlay .fa {
+	background: #ffa400;
+	border-radius: 50%;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	text-align: center;
+	opacity: 1;
+	/*http: //www.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/; */
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#portfolio .image_folder a:hover { text-decoration: none; }
+
+#portfolio .shadow-card {
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px 0px rgba(50, 50, 50, 0.35); }
+
+}
