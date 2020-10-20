@@ -1,0 +1,84 @@
+/*Style sheet associated with the page contact.html*/
+/*Created by Montanari Filippo*/
+#contact {
+  background: #202020;
+	color: #DDD;
+}
+#contact p {
+  margin-bottom: 10px;
+}
+#contact h2 {
+  color: #ffa400;
+  border-bottom: 1px solid #ffa400;
+  padding-bottom: 5px;
+}
+.container-contact {
+  background: rgb(50, 50, 50, 0.5);
+  margin-top: 120px;
+  height: auto;
+  width: 100%;
+  padding: 15px 10% 15px;
+  font-size: 14px;
+  display: block;
+}
+.cv-image {
+  border: 1px solid #ffa400;
+	border-radius: 50%;
+  width: 90%;
+  max-width: 180px;
+  margin: 20px 10% 20px;
+}
+.cv-btn {
+  color: #ffa400;
+  background-color: transparent;
+	font-size: 15px;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ffa400;
+  margin: 22px 0 22px;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.cv-btn:hover {
+  color: #777;
+  background-color: #ffa400;
+}
+#contact .text-area .fa {
+  font-size: 20px;
+}
+#contact .text-area a {
+  color: inherit;
+}
+.footer-contact {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 30px 0 40px 0;
+  background-color: #EEE;
+  color: #666;
+  text-align: center;
+  border-top: 1px solid #ffa400
+}
+#contact .social-icon a {
+	border: 1px solid #666;
+	border-radius: 50%;
+	color: #666;
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin: 0 4px 6px 6px;
+}
+#contact .social-icon a:hover {
+  color: #FFF;
+	border-color: transparent;
+	background: #ffa400;
+}
