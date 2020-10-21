@@ -205,7 +205,7 @@ footer
 	color: #FFF;
 	padding: 80px 0 40px 0;
 }
-footer .social_icon a
+footer .social-icon a
 {
 	border: 1px solid #FFF;
 	border-radius: 50%;
@@ -220,7 +220,7 @@ footer .social_icon a
 	transition: all 0.2s ease-in;
 	margin: 0 4px 24px 6px;
 }
-footer .social_icon a:hover
+footer .social-icon a:hover
 {
 	border-color: transparent;
 	background: #ffa400;
