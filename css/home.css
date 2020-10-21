@@ -35,8 +35,8 @@
 /* features */
 #features {
 	background: #F9F9F9;
-	padding: 60px 0 10px 0;
-	border-bottom: 1px solid #ffa400;
+	padding: 60px 0 30px 0;
+	/*border-bottom: 1px solid #ffa400;*/
 }
 #features h2 {
 	font-weight: 400;
@@ -46,7 +46,7 @@
 	font-weight: 400;
 	padding-bottom: 6px;
 }
-#features .fa {
+#features .ball-icon {
 	background: #ffa400;
 	border-radius: 50%;
 	color: #FFF;
@@ -61,7 +61,7 @@
 	transition: all 0.4s ease;
 
 }
-#features .fa:hover {
+#features .ball-icon:hover {
 	background: #303030;
 	-webkit-transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
@@ -74,8 +74,6 @@
   background-color: transparent;
 	font-size: 15px;
   border-radius: 5px;
-  width: 140px;
-  height: 40px;
   line-height: 40px;
   text-align: center;
   border: 1px solid #ffa400;
@@ -87,6 +85,22 @@
   color: #FFF;
   background-color: #ffa400;
 }
+.hideshow-bar {
+  color: #ffa400;
+  background-color: #F9F9F9;
+	font-size: 15px;
+  padding: 3px 0 3px;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ffa400;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.hideshow-bar:hover {
+  color: #FFF;
+  background-color: #ffa400;
+}
+
 /* skill-bars */
 #skill-bars {
 	background: #EEE;

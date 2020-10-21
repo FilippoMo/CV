@@ -105,33 +105,29 @@
 			<div class="row">
 				<div class="col-md-12"></div>
 				<div class="col-base-12 col-xs-6 col-md-3">
-					<i class="fa fa-cubes"></i>
+					<i class="ball-icon fa fa-cubes"></i>
 						<h3>INDUSTRIAL MANAGEMENT</h3>
 						<p>Lean, optimization, ERP, scheduling</p>
 				</div>
 				<div class="col-base-12 col-xs-6 col-md-3" style="margin-bottom: 20px;">
-					<i class="fa fa-laptop"></i>
-						<h3 class="round-icons" style="padding:12px 0 20px">CODING</h3>
+					<i class="ball-icon fa fa-laptop"></i>
+						<h3 style="padding:12px 0 20px">CODING</h3>
 						<p>Python, MATLAB, C++, HTML5</p>
 				</div>
 				<div class="col-base-12 col-xs-6 col-md-3">
-					<i class="fa fa-plane" style="font-size: 32px;"></i>
+					<i class="ball-icon fa fa-plane" style="font-size: 32px;"></i>
 						<h3>AEROSPACE &amp; MECHANICS</h3>
 						<p>Systems, structures, dynamics</p>
 				</div>
 				<div class="col-base-12 col-xs-6 col-md-3">
-					<i class="fa fa-users" style="font-size: 26px;"></i>
-						<h3 class="round-icons" style="padding:12px 0 20px">SOCIAL</h3>
+					<i class="ball-icon fa fa-users" style="font-size: 26px;"></i>
+						<h3 style="padding:12px 0 20px">SOCIAL</h3>
 						<p>Team-work, cooperation, languages</p>
 				</div>
 			</div>
 		</div>
-		<div class="hide-sm">
-			<button class=" hideshow-btn" onclick="HideShowSkillBars()"> show/hide more
-		</div>
 	</section>
 	<!-- end templatemo features -->
-
 
 	<section id="skill-bars" style="display: none;">
 		<div class="container">
@@ -219,6 +215,12 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Hide / Show skill-bars-->
+	<div class="hide-sm hideshow-bar" onclick="HideShowSkillBars()">
+			<span id="chevronDown"><i class="fa fa-chevron-down"></i> Show more details</span>
+			<span id="chevronUp" style="display: none;"><i class="fa fa-chevron-up"></i> Close</span>
+	</div>
 
 	<!-- start templatemo portfolio -->
 	<section id="portfolio">
