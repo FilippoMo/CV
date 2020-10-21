@@ -3,6 +3,7 @@
 #contact {
   background: #202020;
 	color: #DDD;
+  padding-bottom: 150px;
 }
 #contact p {
   margin-bottom: 10px;
@@ -43,7 +44,7 @@
 	transition: all 0.2s ease-in;
 }
 .cv-btn:hover {
-  color: #777;
+  color: #FFF;
   background-color: #ffa400;
 }
 #contact .text-area .fa {
