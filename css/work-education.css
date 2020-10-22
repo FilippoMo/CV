@@ -12,8 +12,39 @@
 	box-shadow: 0px 3px 9px 0px rgba(50, 50, 50, 0.16);
 }
 .sm-icon {
-	font-size: 22px;
+	font-size: 20px;
 	color: #555;
+}
+.hideshow-btn {
+  color: #ffa400;
+  background-color: transparent;
+	font-size: 15px;
+  border-radius: 5px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ffa400;
+  margin: 22px 0 22px;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.hideshow-btn:hover {
+  color: #FFF;
+  background-color: #ffa400;
+}
+.hideshow-bar {
+  background-color: #EEE;
+	border-bottom: 1px solid #ffa400;
+	font-size: 14px;
+  padding: 1px 0 1px;
+  margin: 0;
+  text-align: center;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.hideshow-bar:hover {
+  color: #FFF;
+  background-color: #ffa400;
+  cursor: pointer;
 }
 #work {
 	background: #F9F9F9;
@@ -23,6 +54,11 @@
 #work h2 {
 	font-weight: 400;
 	padding: 0 20px 0;
+	margin: 0;
+}
+#work h3 {
+	font-weight: 400;
+	padding: 0 20px 10px;
 	margin: 0;
 }
 #work h4 {
@@ -47,16 +83,28 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+#work .title {
+	background: #444;
+	color: #EEE;
+	margin: 0;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+#work .title:hover {
+	color: #ffa400;
+}
 #work .text {
 	background-color: #FFF;
 	margin: 0;
 	padding: 12px;
 }
-#work .text0 {
-	background-color: #FFF;
-	margin: 0;
-	padding: 12px 27px 12px;
+#work .footer {
+	background: #EEE;
+	padding: 5px 0 5px;
 }
+
+
+
 #work .icon0 {
 	background: #4a4a4a;
 	border-radius: 50%;
@@ -152,10 +200,7 @@
 #work .title2:hover {
 	background: #21c4b5;
 }
-#work .footer-work {
-	background: #E1E1E1;
-	padding: 15px 0 15px;
-}
+
 
 
 #education {

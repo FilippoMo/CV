@@ -1,7 +1,7 @@
-function HideShowSkillBars() {
-  var x = document.getElementById("skill-bars");
-  var y = document.getElementById("chevronDown");
-  var z = document.getElementById("chevronUp");
+function HideShowSkillBars(SectionName, Down, Up) {
+  var x = document.getElementById(SectionName);
+  var y = document.getElementById(Down);
+  var z = document.getElementById(Up);
   if (x.style.display === "none") {
     x.style.display = "block";
     y.style.display = "none";
