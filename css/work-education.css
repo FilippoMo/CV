@@ -46,6 +46,24 @@
   background-color: #ffa400;
   cursor: pointer;
 }
+.floating-icon-left, .floating-icon-right {
+	font-size: 40px;
+	display: inline-block;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.floating-icon-left:hover, .floating-icon-right:hover {
+	color: #ffa400;
+}
+.floating-icon-left {
+	float: left;
+	padding: 0 10px 5px 0;
+}
+.floating-icon-right {
+	float: right;
+	padding: 0 0 5px 10px;
+}
+
 #work {
 	background: #F9F9F9;
 	padding: 60px 0 0;
@@ -104,112 +122,19 @@
 }
 
 
-
-#work .icon0 {
-	background: #4a4a4a;
-	border-radius: 50%;
-	color: #FFF;
-	font-size: 30px;
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	margin: 10px 0 10px;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#work .icon0:hover {
-	background: transparent;
-	color: #04b7db;
-	font-size: 50px;
-	-webkit-transform: rotate(21deg);
-	-ms-transform: rotate(21deg);
-	transform: rotate(21deg);
-}
-#work .title0 {
-	background: #4a4a4a;
-	margin: 0;
-	color: #FFF;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#work .title0:hover {
-	background: #04b7db;
-}
-#work .icon1 {
-	background: #4a4a4a;
-	border-radius: 50%;
-	color: #FFF;
-	font-size: 42px;
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 10px;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#work .icon1:hover {
-	background: transparent;
-	color: #d13030;
-	font-size: 70px;
-	-webkit-transform: rotate(300deg);
-	-ms-transform: rotate(300deg);
-	transform: rotate(300deg);
-}
-#work .title1 {
-	background: #4a4a4a;
-	margin: 0;
-	color: #FFF;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#work .title1:hover {
-	background: #d13030;
-}
-#work .icon2 {
-	background: #4a4a4a;
-	border-radius: 50%;
-	color: #FFF;
-	font-size: 30px;
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 10px;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#work .icon2:hover {
-	background: transparent;
-	color: #21c4b5;
-	font-size: 50px;
-	-webkit-transform: rotate(20deg);
-	-ms-transform: rotate(20deg);
-	transform: rotate(20deg);
-}
-#work .title2 {
-	background: #4a4a4a;
-	margin: 0;
-	color: #FFF;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#work .title2:hover {
-	background: #21c4b5;
-}
-
-
-
 #education {
 	background: #F9F9F9;
-	padding: 60px 0 60px 0;
+	padding: 60px 0 0;
+	border-bottom: 1px solid #ffa400;
 }
 #education h2 {
 	font-weight: 400;
 	padding: 0 20px 0;
+	margin: 0;
+}
+#education h3 {
+	font-weight: 400;
+	padding: 0 20px 10px;
 	margin: 0;
 }
 #education h4 {
@@ -227,69 +152,42 @@
 	padding: 5px 20px 5px;
 	margin: 0;
 }
-#education img {
-	padding: 8px 10% 18px;
-	width: 100%;
-	max-width: 270px;
+#education .title {
+	background: #827d70;
+	color: #FDFDFD;
+	margin: 0;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+#education .title:hover {
+	background: #444;
+	color: #ffa400;
 }
 #education .text {
 	background-color: #FFF;
 	margin: 0;
 	padding: 12px;
 }
-#education .text0 {
-	background-color: #FFF;
-	margin: 0;
-	padding: 12px 4% 12px;
+#education .footer {
+	background: #EEE;
+	padding: 5px 0 5px;
 }
-#education .icon {
-	background: #4a4a4a;
-	border-radius: 50%;
-	color: #FFF;
-	font-size: 30px;
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	margin-top: 35px;
-	margin-bottom: 10px;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#education .icon:hover {
-	background: transparent;
-	color: #084c82;
-	font-size: 45px;
-	-webkit-transform: rotate(330deg);
-	-ms-transform: rotate(330deg);
-	transform: rotate(330deg);
-}
-#education .title-edu {
-	background: #4a4a4a;
-	color: #FFF;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-#education .title-edu:hover {
-	background: #084c82;
-}
+
 #education .logo-card {
-	background: #eee;
+	background: #EEE;
 	font-size: 12px;
 	text-align: center;
 	vertical-align: top;
 	width: 40%;
-	height: 250px;
-	padding: 15px 0 15px;
+	height: auto;
+	padding: 15px 0 10px;
 	margin: 20px 4% 20px;
 	display: inline-block;
 }
-#education .orange {
-	color: #ffa400;
-}
-#education .footer-edu{
-	background: #EEE;
-	padding: 15px 0 15px;
+#education .logo-card img {
+	padding: 8px 10% 14px;
+	width: 100%;
+	max-width: 270px;
 }
 #education .HS-logo {
 	float:right;
