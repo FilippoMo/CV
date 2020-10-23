@@ -1,6 +1,27 @@
 /*Style sheet associated with the page home.html*/
 /*Created by Montanari Filippo*/
 
+.slide-bars {
+  position: absolute;
+  top: 35px;
+  text-align: center;
+}
+.slide-bars > .active {
+  height: 7px;
+  width: 25px;
+  margin: 0 8px 0;
+  display: inline-block;
+  background-color: #faa400;
+}
+.slide-bars > .inactive {
+  height: 7px;
+  width: 25px;
+  margin: 0 1px 0;
+  display: inline-block;
+  background-color: rgb(120, 120, 120, 0.5);
+}
+
+
 /*about-me*/
 #about-me {
   background: #333;

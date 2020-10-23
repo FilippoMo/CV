@@ -1,5 +1,5 @@
 /*
-Composite Template
+based on Composite Template
 http://www.templatemo.com/preview/templatemo_444_composite
 */
 
@@ -142,7 +142,9 @@ body
 	border-color: transparent;
 }
 
+
 /* start templatemo contact */
+/*
 #contact
 {
 	background: #303030;
@@ -187,8 +189,9 @@ body
 	padding-top: 0;
 	margin: 0;
 }
+*/
 
-
+/*
 a {	color: #ffa400; }
 a:hover, a:active
 {
