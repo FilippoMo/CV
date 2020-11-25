@@ -158,7 +158,13 @@
 }
 #portfolio h2 {
 	font-weight: 300;
-	padding: 0 0 20px 0;
+	padding: 80px 20px 0;
+	margin: 0;
+}
+#portfolio p {
+	font-weight: 400;
+	padding: 5px 20px 5px;
+	margin: 0;
 }
 #portfolio ul { padding-left: 10px }
 #portfolio .col-md-4 { padding: 4px 10px 4px; }
