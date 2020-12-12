@@ -163,7 +163,7 @@
 }
 #portfolio p {
 	font-weight: 400;
-	padding: 5px 20px 5px;
+	padding: 5px 20px 5px 0px;
 	margin: 0;
 }
 #portfolio ul { padding-left: 10px }
