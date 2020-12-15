@@ -83,7 +83,7 @@ body
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	height: 100vh;
+	height: 110vh
 }
 .flexslider .slides {
 	padding: 0;
@@ -92,7 +92,7 @@ body
 .flexslider .slides img {
 	padding: 0;
 	display: block;
-	height: 100vh;
+	height: 110vh;
 }
 .flexslider li {
 	display: none;
